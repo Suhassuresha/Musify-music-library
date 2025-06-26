@@ -55,14 +55,13 @@ remotes: {
 
 ---
 
-### 🔐 Demo Credentials
+## 🔐 Demo Credentials
+| Role  | Email              | Password  | Permissions                   |
+|-------|--------------------|-----------|-------------------------------|
+| Admin | admin@musify.com   | admin123  | Add and delete songs          |
+| User  | user@musify.com    | user123   | View, filter, and sort songs  |
 
-| Role  | Username | Password |
-| ----- | -------- | -------- |
-| Admin | `admin`  | `admin`  |
-| User  | `user`   | `user`   |
-
-💡 This is mock authentication using **in-memory JWT** stored in localStorage.
+🔑 Use the login screen in the main app. Authentication is simulated in-memory (no backend or real session handling).
 
 ---
 

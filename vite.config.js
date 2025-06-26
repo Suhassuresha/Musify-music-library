@@ -12,7 +12,7 @@ export default defineConfig({
         './MusicLibrary': './src/App.jsx',
       },
       remotes: undefined, 
-      shared: ['react', 'react-dom'],
+      shared: ['react', 'react-dom', 'framer-motion'],
       dev: true,
     }),
   ],
